@@ -83,11 +83,11 @@ body{
     width:58rem;
     height:3rem;
     padding-left: 0.9rem;
-    margin-left: -0.8rem;
+    margin-left: -1rem;
     z-index: -2;
     display: none;
     position: absolute;
-    top:14.8rem;
+    top:15.4rem;
 }
 .sdn {
     display: flex;
@@ -309,6 +309,10 @@ body{
     }
     .subabs {
         right:13.75rem;
+    }
+    .hiddenbg {
+        margin-left: -0.8rem;
+        top:14.8rem;
     }
     .background-contents{
         height:17rem;

@@ -83,11 +83,11 @@ body{
     width:58rem;
     height:3rem;
     padding-left: 0.9rem;
-    margin-left: -0.8rem;
+    margin-left: -1rem;
     z-index: -2;
     display: none;
     position: absolute;
-    top:14.8rem;
+    top:15.4rem;
 }
 .sdn {
     display: flex;
@@ -255,7 +255,7 @@ body{
 .oc-bordercross {
     border-bottom: 1px solid rgb(207, 206, 206);
     width:5.5rem;
-    margin-top:-4rem;
+    margin-top:-4.2rem;
     margin-right:5.5rem;
 }
 .oc-crossbox {
@@ -290,7 +290,7 @@ body{
 .oc-borderbottom {
     margin-top:1.5rem;
     width: 6rem;
-    border-bottom: 1px solid rgb(228, 225, 225);
+    border-bottom: 2px solid rgb(228, 225, 225);
 }
 .oc-borders-second-stands {
     display: flex;
@@ -299,6 +299,7 @@ body{
 .oc-borderstand2 {
     border-left: 2px solid rgb(228, 225, 225);
     height:30rem;
+    margin-top: -0.08rem;
 }
 .oc-subboxes {
     display:flex;
@@ -388,7 +389,7 @@ body{
 .pgc-images img {
     height: auto;
     align-self: flex-start;
-    width:20rem;
+    width:20.3rem;
 }
 .pgc-btn {
     cursor:pointer;
@@ -427,7 +428,7 @@ body{
 .catg-images img {
     height: auto;
     align-self: flex-start;
-    width:20rem;
+    width:20.3rem;
 }
 .catg-btn {
     cursor:pointer;
@@ -581,6 +582,10 @@ body{
     }
     .subabs {
         right:13.75rem;
+    }
+    .hiddenbg {
+        margin-left: -0.8rem;
+        top:14.8rem;
     }
     .bc-logoimg {
         width:17rem;
